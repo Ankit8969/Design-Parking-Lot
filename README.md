@@ -58,9 +58,12 @@ Calculates parking fees based on the duration of the vehicle's stay.
 - getAllEmptySpotAPI
 Returns a list of available parking spots.
 
-
 ## 💰 Payment Methods
 The system supports multiple payment methods:
 
 - Cash
 - Card
+
+
+
+![ParkingLotLLD](https://github.com/user-attachments/assets/d1aa232a-0ab4-4670-9789-a24a57f87848)
