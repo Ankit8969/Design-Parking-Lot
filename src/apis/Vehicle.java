@@ -1,0 +1,44 @@
+package apis;
+
+import data.VehicleType;
+
+import java.time.LocalDateTime;
+
+public class Vehicle {
+    /**
+     * name -> Mode type
+     * vehicleType -> 2W, 4W , Heavy
+     * number -> vehicle number plate
+     * entryTime -> entryTime of parking
+     */
+    private final String name;
+    private final VehicleType vehicleType;
+    private final String number;
+    private final LocalDateTime entryTime;
+
+    public Vehicle(String name,
+                   VehicleType vehicleType,
+                   String number,
+                   LocalDateTime entryTime) {
+        this.name = name;
+        this.vehicleType = vehicleType;
+        this.number = number;
+        this.entryTime = entryTime;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public LocalDateTime getEntryTime() {
+        return entryTime;
+    }
+}
